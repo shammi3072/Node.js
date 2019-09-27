@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jbundle.util.webapp</groupId>
+    <artifactId>jbundle-util-webapp-parent</artifactId>
+    <version>0.7.2</version>
+  </parent>
+
+  <groupId>sample-project</groupId>
+  <artifactId>project-1</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <packaging>war</packaging>
+  <name>jbundle-util-webapp-webdav (webdav directory)</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>catalina</artifactId>
+      <version>6.0.26</version>
+      <scope>provided</scope>	<!-- This is usually included in distributions. If you do include this, the servlet is tiny, the jar is huge -->
+    </dependency>
+  </dependencies>
+
+</project>
